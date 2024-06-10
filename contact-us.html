@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>National Fire and Safety</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="National Fire and Safety" name="keywords" />
+    <meta content="National Fire and Safety" name="description" />
+
+    <!-- Favicons -->
+    <link href="img/favicon.png" rel="icon" />
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS File -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Libraries CSS Files -->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+    <!-- Main Stylesheet File -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <header id="header" class="fixed-top bg-dark">
+      <div class="container">
+        <div class="logo float-left">
+          <a href="#intro" class="scrollto"
+            ><img src="img/logo-white.png" alt="" class="img-fluid"
+          /></a>
+        </div>
+        <!-- nav -->
+        <nav class="main-nav float-right d-none d-lg-block">
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about-us.html">About Us</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li>
+              <a
+                style="color: #007bff; font-weight: bold"
+                href="./contact-us.html"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <!-- end nav -->
+      </div>
+    </header>
+    <!-- end navbar -->
+
+    <!-- intro -->
+    <section id="intro" class="clearfix">
+      <div class="container mt-4">
+        <div class="intro-img">
+          <img src="img/intro-img.svg" alt="" class="img-fluid" />
+        </div>
+
+        <div class="intro-info">
+          <h2>
+            Industry Standard<br /><span>Fire Protection</span><br />Services
+          </h2>
+          <div class="btn-group" role="group" aria-label="Basic example">
+            <a class="intro-btn" type="button">FIRE SAFETY EQUIPMENT</a>
+            <div class="vl"></div>
+            <a class="intro-btn" type="button">INSTALLATION</a>
+            <div class="vl"></div>
+            <a class="intro-btn" type="button">MAINTENANCE</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end intro -->
+
+    <!-- main -->
+    <main id="main">
+      <!-- contact-us -->
+      <section id="contact" style="box-shadow: none">
+        <!-- container -->
+        <div class="container-fluid">
+          <!-- header -->
+          <div class="section-header">
+            <h3>Contact Us</h3>
+            <hr class="style1" />
+          </div>
+          <!-- end header -->
+
+          <!-- main-row -->
+          <div class="row">
+            <div class="col-lg-6">
+              <!-- map -->
+              <div class="map mb-4 mb-lg-0">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.1129458019277!2d151.10814587635565!3d-34.01531167317085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12b86e7bb95095%3A0x732b6e0059d9f8f1!2s22%20Castlereagh%20Cres%2C%20Sylvania%20Waters%20NSW%202224!5e0!3m2!1sen!2sau!4v1718011718647!5m2!1sen!2sau"
+                  frameborder="0"
+                  style="border: 0; width: 100%; height: 312px"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+              <!-- end map -->
+            </div>
+
+            <!-- contact-form -->
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-md-5 info">
+                  <i class="ion-ios-location-outline"></i>
+                  <p>
+                    22 castlereagh crescent sylvania waterst, NSW 1234,
+                    Australia
+                  </p>
+                </div>
+                <div class="col-md-4 info">
+                  <i class="ion-ios-email-outline"></i>
+                  <p>info@example.com</p>
+                </div>
+                <div class="col-md-3 info">
+                  <i class="ion-ios-telephone-outline"></i>
+                  <p>+1 123 456 7890</p>
+                </div>
+              </div>
+
+              <div class="form">
+                <div id="sendmessage">
+                  Your message has been sent. Thank you!
+                </div>
+                <div id="errormessage"></div>
+                <form action="" method="post" role="form" class="contactForm">
+                  <div class="form-row">
+                    <div class="form-group col-lg-6">
+                      <input
+                        type="text"
+                        name="name"
+                        class="form-control"
+                        id="name"
+                        placeholder="Your Name"
+                        data-rule="minlen:4"
+                        data-msg="Please enter at least 4 chars"
+                      />
+                      <div class="validation"></div>
+                    </div>
+                    <div class="form-group col-lg-6">
+                      <input
+                        type="email"
+                        class="form-control"
+                        name="email"
+                        id="email"
+                        placeholder="Your Email"
+                        data-rule="email"
+                        data-msg="Please enter a valid email"
+                      />
+                      <div class="validation"></div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="subject"
+                      id="subject"
+                      placeholder="Subject"
+                      data-rule="minlen:4"
+                      data-msg="Please enter at least 8 chars of subject"
+                    />
+                    <div class="validation"></div>
+                  </div>
+                  <div class="form-group">
+                    <textarea
+                      class="form-control"
+                      name="message"
+                      rows="5"
+                      data-rule="required"
+                      data-msg="Please write something for us"
+                      placeholder="Message"
+                    ></textarea>
+                    <div class="validation"></div>
+                  </div>
+                  <div class="text-center">
+                    <button type="submit" title="Send Message">
+                      Send Message
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <hr class="style1" />
+          <!-- end contact-form -->
+        </div>
+      </section>
+      <!-- #contact -->
+    </main>
+
+    <!-- footer -->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 footer-info">
+              <h3>National Fire and Safety</h3>
+              <hr style="background-color: aliceblue" />
+            </div>
+            <div class="col-lg-2 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about-us.html">About Us</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./contact-us.html">Contact Us</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <h4>Contact Us</h4>
+              <span>
+                <strong>Address:</strong> <br />
+                <i>
+                  22 castlereagh crescent sylvania waterst, <br />
+                  NSW 1234,<br />
+                  Australia <br />
+                </i>
+              </span>
+              <p>
+                <strong>Phone:</strong> <br />
+                (02) 9529 9950<br />
+                <strong>Email:</strong> <br />
+                contact@nationalfireandsafety.com<br />
+              </p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-newsletter">
+              <h4>Our Social Links</h4>
+              <div class="social-links">
+                <a
+                  href="https://www.facebook.com/share/xgrs6zueyrSa7X33/?mibextid=qi2Omg"
+                  class="facebook"
+                  target="”_blank”"
+                  ><i class="fa fa-facebook"></i
+                ></a>
+                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="#" class="instagram"
+                  ><i class="fa fa-instagram"></i
+                ></a>
+                <a href="#" class="google-plus"
+                  ><i class="fa fa-google-plus"></i
+                ></a>
+                <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- back to top -->
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+    <!-- end back to top -->
+
+    <!-- JavaScript Libraries -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/mobile-nav/mobile-nav.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <!-- Contact Form JavaScript File -->
+    <script src="contactform/contactform.js"></script>
+
+    <!-- website Javascript File -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
