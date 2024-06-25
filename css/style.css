@@ -491,6 +491,7 @@ hr.style1 {
 
 #services .card {
   padding: 30px;
+  min-height: 280px;
   position: relative;
   overflow: hidden;
   border-radius: 10px;
@@ -575,41 +576,9 @@ hr.style1 {
   font-weight: 600;
 }
 
-#why-us .card p {
+#why-us .card a {
   font-size: 15px;
   color: #d8eafe;
-}
-
-#why-us .card .readmore {
-  color: #fff;
-  font-weight: 600;
-  display: inline-block;
-  transition: 0.3s ease-in-out;
-  border-bottom: #00458f solid 2px;
-}
-
-#why-us .card .readmore:hover {
-  border-bottom: #fff solid 2px;
-}
-
-#why-us .counters {
-  padding-top: 40px;
-}
-
-#why-us .counters span {
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  font-size: 48px;
-  display: block;
-  color: #fff;
-}
-
-#why-us .counters p {
-  padding: 0;
-  margin: 0 0 20px 0;
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  color: #cce5ff;
 }
 /* end why-us */
 /* end services */
@@ -670,92 +639,6 @@ hr.style1 {
   background-color: #007bff;
 }
 /* end testimonials */
-
-/* team-members */
-#team {
-  background: #fff;
-  padding: 60px 0;
-  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
-}
-
-#team .member {
-  text-align: center;
-  margin-bottom: 20px;
-  position: relative;
-  border-radius: 50%;
-  overflow: hidden;
-}
-
-#team .member .member-info {
-  opacity: 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  transition: 0.2s;
-}
-
-#team .member .member-info-content {
-  margin-top: 50px;
-  transition: margin 0.2s;
-}
-
-#team .member:hover .member-info {
-  background: rgba(0, 62, 128, 0.7);
-  opacity: 1;
-  transition: 0.4s;
-}
-
-#team .member:hover .member-info-content {
-  margin-top: 0;
-  transition: margin 0.4s;
-}
-
-#team .member h4 {
-  font-weight: 700;
-  margin-bottom: 2px;
-  font-size: 18px;
-  color: #fff;
-}
-
-#team .member span {
-  font-style: italic;
-  display: block;
-  font-size: 13px;
-  color: #fff;
-}
-
-#team .member .social {
-  margin-top: 15px;
-}
-
-#team .member .social a {
-  transition: none;
-  color: #fff;
-}
-
-#team .member .social a:hover {
-  color: #007bff;
-}
-
-#team .member .social i {
-  font-size: 18px;
-  margin: 0 2px;
-}
-/* end team-members */
 
 /* contact-us */
 #contact {
